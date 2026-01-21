@@ -1,6 +1,10 @@
 streamlit
 joblib
 scikit-learn
-sentence-transformers
-transformers
-torch
+
+sentence-transformers==2.6.1
+transformers==4.38.2
+huggingface-hub==0.21.4
+torch>=2.2.0
+safetensors
+accelerate
