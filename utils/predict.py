@@ -26,7 +26,7 @@ def load_model():
 # ---------------------------
 def predict_label(texts, logistic_model, s2v_model):
     embeddings = s2v_model.encode(
-        texts,
+        list(texts),
         convert_to_numpy=True
     )
     preds = logistic_model.predict(embeddings)
