@@ -11,7 +11,7 @@ def load_model():
 
     # โหลด sentence2vec จาก Hugging Face
     s2v_model = SentenceTransformer(
-        "USERNAME/sentence2vec-brd"
+        "Pachinee/sentence2vec-brd"
     )
 
     return logistic_model, s2v_model
